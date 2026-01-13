@@ -1,6 +1,6 @@
 # Server Monitor - SwiftBar 一体化服务器监控插件
 
-一个功能强大的SwiftBar插件,用于远程监控Linux服务器的各项性能指标,包括CPU、RAM、GPU、磁盘、网络和温度。
+一个功能强大的SwiftBar插件,用于远程监控Linux服务器的各项性能指标,包括CPU、RAM、GPU、磁盘。
 
 ## 功能特性
 
