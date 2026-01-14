@@ -233,16 +233,13 @@ parse_ram
 parse_gpu
 parse_disk
 
-# 确定顶部栏颜色和图标
+# 确定顶部栏图标
 if [ "$OVERALL_STATUS" = "red" ]; then
   OVERALL_ICON="🔴"
-  OVERALL_COLOR=" | color=red"
 elif [ "$OVERALL_STATUS" = "yellow" ]; then
   OVERALL_ICON="🟡"
-  OVERALL_COLOR=" | color=#FFD60A"
 else
   OVERALL_ICON="🟢"
-  OVERALL_COLOR=""
 fi
 
 # ========== 生成顶部栏 ==========
