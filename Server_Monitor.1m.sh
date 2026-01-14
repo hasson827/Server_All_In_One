@@ -246,7 +246,7 @@ else
 fi
 
 # ========== 生成顶部栏 ==========
-echo "$OVERALL_ICON Server: $ERROR_COUNT Errors, $WARNING_COUNT Warnings$OVERALL_COLOR"
+echo "$OVERALL_ICON Server"
 
 # ========== 生成多级菜单 ==========
 echo "---"
