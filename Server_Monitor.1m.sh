@@ -146,7 +146,7 @@ parse_gpu() {
     GPU_FREE_COUNT=0
     GPU_TOTAL_COUNT=0
   else
-    GPU_COUNT=$(echo "$GPU_DATA" | wc -l)
+    GPU_COUNT=$(echo "$GPU_DATA" | wc -l | xargs)
     GPU_TOTAL_COUNT=$GPU_COUNT
     GPU_FREE_COUNT=0
     
